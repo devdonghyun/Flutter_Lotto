@@ -12,7 +12,14 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue,
-          title: Text('GDSC HUFS Lotto'),
+          title: Text(
+            'GDSC HUFS Lotto',
+            style: TextStyle(
+              fontFamily: 'Ubuntu',
+              fontSize: 25.0,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
         ),
       ),
     );
